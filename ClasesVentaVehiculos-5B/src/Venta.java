@@ -8,5 +8,13 @@
  * @author axela
  */
 public class Venta {
+    private int cantidad;
+    private Vehiculo vehiculo;
+    private Cliente cliente;
     
+    public Venta(int cantidad, Vehiculo vehiculo, Cliente cliente){
+    this.cantidad=cantidad;
+    this.vehiculo=vehiculo;
+    this.cliente=cliente;
+    }
 }
